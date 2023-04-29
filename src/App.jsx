@@ -73,7 +73,11 @@ const App = () => {
                 <p className='mt-6 max-w-[80%] mx-auto text-2xl font-light'>
                     {joke}
                 </p>
-                <a href='https://icanhazdadjoke.com/api' target="_blank" className='absolute w-10 h-10 bottom-0 right-0'>
+                <a
+                    href='https://icanhazdadjoke.com/api'
+                    target='_blank'
+                    className='absolute w-10 h-10 bottom-0 right-0'
+                >
                     <img src={smiley} alt='smiley face' />
                 </a>
             </div>
