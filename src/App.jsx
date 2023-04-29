@@ -51,7 +51,7 @@ const App = () => {
                 </h1>
                 <form
                     onSubmit={generateJoke}
-                    className='w-3/4 mx-auto mt-8 text-center '
+                    className='w-3/4 mx-auto text-center mt-7 '
                 >
                     <div className='flex items-center justify-center gap-2'>
                         <label htmlFor='topic'>Topic:</label>
