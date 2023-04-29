@@ -45,9 +45,9 @@ const App = () => {
 
     return (
         <div className='bg-slate-800 h-screen text-white grid place-items-center text-xl'>
-            <div className='p-8 border-2 border-gray-500 rounded-md min-h-[25%] max-w-3xl bg-white/5'>
+            <div className='w-3/4 p-8 border-2 border-gray-500 rounded-md bg-white/5'>
                 <h1 className='text-5xl text-center font-semibold '>
-                    Dad Joke Generator 3000
+                    Dad Joke Generator
                 </h1>
                 <form
                     onSubmit={generateJoke}
